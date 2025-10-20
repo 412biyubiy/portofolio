@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+---
+
+<section class="profile">
+  <div class="profile-image">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Ahya Muhammad Abiyu Salam">
+  </div>
+  <div class="profile-info">
+    <h2>Ahya Muhammad Abiyu Salam</h2>
+    <p>Data Science & Cloud Engineering Enthusiast</p>
+    <p>I'm passionate about building intelligent systems and scalable cloud solutions. Specialized in deep learning, machine learning, and AWS cloud architecture.</p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/ahya-muhammad-abiyu-salam" target="_blank" title="LinkedIn">in</a>
+      <a href="mailto:abiyu.salam2004@gmail.com" title="Email">✉</a>
+      <a href="tel:+628522384 0874" title="WhatsApp">💬</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 style="margin-bottom: 30px;">Featured Projects</h2>
+  <div class="projects-grid">
+    {% for project in site.projects limit:3 %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
+  <div style="text-align: center;">
+    <a href="{{ '/portfolio.html' | relative_url }}" class="read-more">View All Projects →</a>
+  </div>
+</section>
