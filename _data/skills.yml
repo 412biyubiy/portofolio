@@ -1,0 +1,26 @@
+- category: "Programming & Data"
+  items:
+    - Python
+    - NumPy
+    - Pandas
+    - Scikit-Learn
+    - PyTorch
+    - TensorFlow
+
+- category: "Database & Cloud"
+  items:
+    - AWS EC2
+    - AWS S3
+    - AWS RDS
+    - AWS SageMaker
+    - AWS Bedrock
+    - Docker
+
+- category: "Systems & Networking"
+  items:
+    - Linux Administration
+    - Ansible
+    - Docker
+    - TCP/IP
+    - Network Security
+    - Mikrotik
