@@ -1,0 +1,15 @@
+<article class="project-card" data-category="{{ include.project.category }}">
+  <div class="project-image">
+    {% if include.project.image %}
+      <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }}">
+    {% else %}
+      <div class="placeholder">📁</div>
+    {% endif %}
+  </div>
+  <div class="project-content">
+    <h3>{{ include.project.title }}</h3>
+    <p class="category">{{ include.project.category }}</p>
+    <p>{{ include.project.description | truncate: 150 }}</p>
+    <a href="{{ include.project.url }}" class="read-more">Learn More →</a>
+  </div>
+</article>
