@@ -1,7 +1,7 @@
 title: "Ahya Muhammad Abiyu Salam"
 description: "Data Science & Cloud Engineering Portfolio"
 url: "https://username.github.io"
-baseurl: ""  # Kosong kalau pake domain khusus, atau "/portfolio" kalau project site
+baseurl: "https://412biyubiy.github.io/portofolio/"  # Kosong kalau pake domain khusus, atau "/portfolio" kalau project site
 
 # Build settings
 theme: minima
